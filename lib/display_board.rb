@@ -3,9 +3,9 @@
 my_board = [" "," "," "," "," "," "," "," "," "," " ]
 
 def display_board(board)
-  puts "#{}   |#{}   |#{}   "
+  puts " #{my_board[0]} | #{my_board[1]}  | #{my_board[2]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{my_board[3]} | #{my_board[4]}  | #{my_board[5]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{my_board[6]} | #{my_board[7]}  | #{my_board[8]} "
 end
